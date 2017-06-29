@@ -98,10 +98,11 @@ nav li a:hover {
 #navbar ul li.acctNav::before, #navbar ul li input#search::before {
 	color: #FCFBE6;
 }
-#Title a:hover {
+#Title ul li {
 	margin-top: 0.4em;
 	margin-right: 1em;
-	font-family: the_bully;	
+	font-family: the_bully;
+	font size: 10px; 
 }
 						/*****************************/
 						/*THIS IS THE SEARCH BAR*/

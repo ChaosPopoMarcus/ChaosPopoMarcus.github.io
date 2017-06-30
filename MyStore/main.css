@@ -18,30 +18,55 @@ body {
 								/*****************************/
 #MainPic {
 	display: block;
-	height: 200px;
-	width: 350px;
+	height: 300px;
+	width: 475px;
 	margin: auto;
 	outline: 1px solid #ddd;
 }
 .Window {
 	background-color: grey;
 	padding: 5px;
-	height: 325px;
-	width: 425px;
+	height: 425px;
+	width: 525px;
 	margin: 5px;
 	border: 3px solid lightblue;
 	text-decoration: none;
 	display: inline-block;
-	float: left;
+	border-radius: 25px;
+
 }
+.Window a {
+	text-decoration: none;
+	text-align: center;
+}
+.Window p {
+	font-size: 1.0em;
+}
+.content {
+	align-content: center;
+	margin: 0 auto;
+	text-align: center;
+}
+
 									/*THIS IS THE NAVIGATION BAR*/
 									/****************************/
+.sticky {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	z-index: 100;
+	border-top: 0;
+}
 
+body {
+	margin: 0;
+}
 nav {
 	font-size: 1.7em;
 	letter-spacing: 0.04em;
 	padding: 1.0em 1.0em 0.5em;
-	margin: 1.0em 0;
+	margin: 0;
+	width: 100%;
 }
 nav ul {
 	margin: auto;
@@ -62,48 +87,65 @@ nav li a:hover {
 	background-color: rgba(252,251,243,0.75);
 }
 
-#navbar {
-	margin: 0.00em 0 0 0;
+.navbar {
+	margin: 0;
 	padding: 0.35em;
-	background-color: rgba(64,54,47, 0.8);
+	background-color: rgba(64,54,47, 1.0);
 }
 
-#navbar li {
+.navbar li {
 	padding: 0 0.25em 0 0.2;
 	vertical-align: middle;
 }
-#navbar ul li.acctNav a, #navbar ul li.acctNav a:visited{
+.navbar ul li.acctNav a, .navbar ul li.acctNav a:visited{
 	color: #fff;
 	text-decoration: none;
 	display: inline-block;
 	height: 1.3em;
-	padding: 0.5em;
-	margin: -0.4em 0 0 0;
-	font-size: 0.8em;
+	padding: 0.2em 0.2em 0em 0.2em;
+	margin: 0 0 0 0;
+	font-size: 1.8em;
+	font-family: the_bully
 }
-#navbar ul li.acctNav a.active {
-	background-color: #C64322
+		/*THIS IS THE HOME BUTTON*/
+
+.navbar ul li.Title a, .navbar ul li.acctNav a:visited{
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	height: 1.0em;
+	padding: 0.2em 0.2em 0em 0.2em;
+	margin-right: 3em;
+	font-size: 1.8em;
+	font-family: the_bully
 }
-#navbar ul li.acctNav a:hover {
+.navbar ul li.Title a.active {
+	background-color: #C64322	
+}
+.navbar ul li.Title a:hover {
 	background-color: rgba(252,251,243,0.7);
 	color: #C64322;
 }
-#navbar li a, #navbar li a:visited { padding: 0;}
-#navbar li a:hover { background-color: transparent;}
-#navbar ul li input#search {
+
+		/*Cut Off for Home Button*/
+.navbar ul li.acctNav a:hover {
+	background-color: rgba(252,251,243,0.7);
+	color: #C64322;
+}
+.navbar li a, .navbar li a:visited { padding: 0;}
+.navbar li a:hover { background-color: transparent;}
+.navbar ul li input#search {
 	vertical-align: middle;
 	margin: 0 0 0 1.0em;
 }
 
-#navbar ul li.acctNav::before, #navbar ul li input#search::before {
+.navbar ul li.acctNav::before, .navbar ul li input#search::before {
 	color: #FCFBE6;
-}
-#Title {
-	font-family: the_bully;
 }
 						/*****************************/
 						/*THIS IS THE SEARCH BAR*/
 #searchGroup {
 	float: right;
+	margin-top: auto;
 
 }

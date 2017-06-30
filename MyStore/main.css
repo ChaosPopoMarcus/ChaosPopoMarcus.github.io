@@ -23,7 +23,7 @@ body {
 	margin: auto;
 	outline: 1px solid #ddd;
 }
-.Window {
+.Thing {
 	background-color: grey;
 	padding: 5px;
 	height: 425px;
@@ -33,30 +33,26 @@ body {
 	text-decoration: none;
 	display: inline-block;
 	border-radius: 25px;
+	float: left;
 
 }
-.Window a {
+.Thing a {
 	text-decoration: none;
 	text-align: center;
 }
-.Window p {
-	font-size: 1.0em;
+.Thing p {
+	font-size: 1.5em;
 }
 .content {
 	align-content: center;
-	margin: 0 auto;
+	margin-left: 7.5em;
 	text-align: center;
+	margin-top: 1em;
+	position: absolute;
 }
 
 									/*THIS IS THE NAVIGATION BAR*/
 									/****************************/
-.sticky {
-	position: fixed;
-	width: 100%;
-	left: 0;
-	z-index: 100;
-	border-top: 0;
-}
 
 body {
 	margin: 0;
@@ -86,13 +82,27 @@ nav li a:hover {
 	color: white;
 	background-color: rgba(252,251,243,0.75);
 }
+.centernav {
+	text-align: center;
+
+}
+.navbar-fixed-top {
+	margin: 0;
+	padding: 0.35em;
+	background-color: rgba(64,54,47, 1.0);
+	position: fixed;
+	z-index: 100;
+}
 
 .navbar {
 	margin: 0;
 	padding: 0.35em;
 	background-color: rgba(64,54,47, 1.0);
 }
+.navbar ul li.acctNav {
+	float: center;
 
+}
 .navbar li {
 	padding: 0 0.25em 0 0.2;
 	vertical-align: middle;
@@ -106,6 +116,9 @@ nav li a:hover {
 	margin: 0 0 0 0;
 	font-size: 1.8em;
 	font-family: the_bully
+}
+.navbar ul li.Title {
+	float: left;
 }
 		/*THIS IS THE HOME BUTTON*/
 
@@ -136,12 +149,13 @@ nav li a:hover {
 .navbar li a:hover { background-color: transparent;}
 .navbar ul li input#search {
 	vertical-align: middle;
-	margin: 0 0 0 1.0em;
+	margin: 0 0 0 0;
 }
 
 .navbar ul li.acctNav::before, .navbar ul li input#search::before {
 	color: #FCFBE6;
 }
+
 						/*****************************/
 						/*THIS IS THE SEARCH BAR*/
 #searchGroup {

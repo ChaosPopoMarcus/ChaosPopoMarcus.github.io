@@ -12,7 +12,7 @@ $(document).ready(function() {
 					.hide()
 					.fadeTo("slow","1");
 
-				$(".content:first").css("padding-top", "50px");
+				$(".content:first").css("padding-top", "5px");
 				navbarVisible = true;
 			};
 		} else {

@@ -190,8 +190,8 @@ nav li a:hover {
 	white-space: nowrap;
 }
 .pictureG {
-	max-height: 100% auto;
-	max-width: 200px;
+	height: 283px;
+	width: 200px;
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -208,7 +208,7 @@ nav li a:hover {
 	vertical-align: middle;
 }
 .helpbutton {
-	display: inline-block;
+	display: inline-block flex;
 	height: 100%
 	vertical-align: middle;
 }

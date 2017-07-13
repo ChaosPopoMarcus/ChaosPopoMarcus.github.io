@@ -108,7 +108,7 @@ fieldset[disabled] .btn-primary.active {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  border-radius: 3px;
+  border-radius: 25px;
   font-size: 18px;
   padding: 20px 40px;
 }
@@ -758,6 +758,6 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #35fec8;
 }
-.video {
-  display: block;
+#services {
+  background-color: blue;
 }

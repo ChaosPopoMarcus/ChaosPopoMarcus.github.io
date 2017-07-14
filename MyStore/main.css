@@ -16,6 +16,12 @@ body {
 
 								/*THIS IS THE CONTENT WINDOWS*/
 								/*****************************/
+.maincontent {
+	display: inline-block;
+	align-items: center;
+	margin: auto;
+	position: relative;	
+}
 #MainPic {
 	display: block;
 	height: 300px;
@@ -31,9 +37,8 @@ body {
 	margin: 5px;
 	border: 3px solid lightblue;
 	text-decoration: none;
-	display: inline-block;
+	justify-content: center;
 	border-radius: 25px;
-	float: left;
 
 }
 .Thing a {
@@ -45,7 +50,7 @@ body {
 }
 .content {
 	display: inline-block;
-	margin-left: auto;
+	margin: auto;
 	text-align: center;
 	margin-top: 1em;
 	position: relative;

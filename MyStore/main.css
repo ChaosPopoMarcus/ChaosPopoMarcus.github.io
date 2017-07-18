@@ -17,10 +17,7 @@ body {
 								/*THIS IS THE CONTENT WINDOWS*/
 								/*****************************/
 .maincontent {
-	display: inline-block;
-	align-items: center;
-	margin: auto;
-	position: relative;	
+	position: relative;
 }
 #MainPic {
 	display: block;
@@ -30,15 +27,19 @@ body {
 	outline: 1px solid #ddd;
 }
 .Thing {
-	background-color: grey;
+	display: table;
+	background-color: #2377ff;
 	padding: 5px;
 	height: 425px;
 	width: 525px;
-	margin: 5px;
+	margin-bottom: 5px;	
+	margin-left: auto;
+	margin-right: auto;
 	border: 3px solid lightblue;
 	text-decoration: none;
+	text-align: center;
+	align-content: center;
 	justify-content: center;
-	border-radius: 25px;
 
 }
 .Thing a {
@@ -66,7 +67,7 @@ nav {
 	font-size: 1.7em;
 	letter-spacing: 0.04em;
 	padding: 1.0em 1.0em 0.5em;
-	margin: 0;
+	margin: 0 0 5px 0;
 	width: 100%;
 }
 nav ul {
@@ -106,6 +107,7 @@ nav li a:hover {
 #searchGroup {
 	margin-left: 2.5em;
 }
+	/*More nav stuff*/
 .navbar {
 	margin: 0;
 	padding: 0.35em;
@@ -193,6 +195,9 @@ nav li a:hover {
 	margin-top: 10px;
 	vertical-align: middle;
 	white-space: nowrap;
+}
+.product button {
+	margin-top: 2px;
 }
 .pictureG {
 	height: 283px;

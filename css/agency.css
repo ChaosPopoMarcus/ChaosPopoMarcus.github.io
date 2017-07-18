@@ -9,16 +9,31 @@ body {
 }
 .text-muted {
   font-size: 1em;
-  color: #777;
+  color: #ddd;
   font-family: NFS, sans-serif;
 }
 .text-primary {
   color: #35fec8;
 }
+.service-heading {
+  color: #ddd;
+}
+#portfolio {
+  background-color: #235ebc;
+}
+.contactpg {
+  display: flex;
+  align-content: center;
+  vertical-align: middle;
+  margin: auto;
+  justify-content: center;
+  width: 100%;
+}
+
 p {
   font-size: 14px;
   line-height: 1.75;
-}
+} 
 p.large {
   font-size: 16px;
 }
@@ -579,6 +594,9 @@ section#contact .section-heading {
 section#contact .form-group {
   margin-bottom: 25px;
 }
+input {
+  margin: 2px;
+}
 section#contact .form-group input,
 section#contact .form-group textarea {
   padding: 20px;
@@ -593,31 +611,15 @@ section#contact .form-control:focus {
   border-color: #35fec8;
   box-shadow: none;
 }
+
+section#contact :-ms-input-placeholder,
+section#contact ::-moz-placeholder,
+section#contact :-moz-placeholder,
 section#contact ::-webkit-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #eeeeee;
-}
-section#contact :-moz-placeholder {
-  /* Firefox 18- */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
-}
-section#contact ::-moz-placeholder {
-  /* Firefox 19+ */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
-}
-section#contact :-ms-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
+  color: black;
 }
 section#contact .text-danger {
   color: #e74c3c;

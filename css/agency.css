@@ -170,11 +170,11 @@ fieldset[disabled] .btn-xl.active {
   font-weight: 400;
 }
 .navbar-custom {
-  background-color: #222222;
+  background-color: blue;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #fff;
+  color: black;
   font-family: NFS;
   font-style: normal;
   font-weight: 400;
@@ -206,7 +206,7 @@ fieldset[disabled] .btn-xl.active {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: white;
+  color: black;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
@@ -244,7 +244,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #222222;
+    background-color: blue;
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
@@ -749,7 +749,7 @@ ul.social-buttons li a:active {
 }
 ::selection {
   text-shadow: none;
-  background: #35fec8;
+  background: url(img/Marcus.jpg) fixed center;
 }
 img::selection {
   background: transparent;
@@ -769,3 +769,6 @@ body {
 footer {
   background-color: #235ebc;
 } 
+.Aboutpic {
+  margin-bottom: 5em;
+}

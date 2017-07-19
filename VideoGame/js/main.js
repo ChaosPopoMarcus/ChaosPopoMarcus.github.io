@@ -217,3 +217,7 @@ window.onload = function() {
 	game.state.add('play', PlayState);
 	game.state.start('play');
 };
+var aud = document.getElementById("Audiob");
+function halfvolume() {
+	aud.volume = 0.0;		
+}

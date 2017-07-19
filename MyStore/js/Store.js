@@ -48,6 +48,31 @@ var slideIndex2 = 1;
 		setTimeout(showDivs2, 4000);
 		slideIndex2++
 	};
+var slideIndex3 = 1;
+	showDivs3(slideIndex3);
+
+	function plusDivs3(o) {
+		showDivs3(slideIndex3 +=o)
+	}
+
+	function showDivs3(o) {
+		var p;
+		var l = document.getElementsByClassName("mySlides3");
+		var dotsthree = document.getElementsByClassName("demo3");
+		if (o > l.length) {slideIndex3 = 1}
+		if (o < 1) {slideIndex3 = l.length}
+		for (var p = 0; p < l.length; p++) {
+			l[p].style.display = "none";
+		}
+		for (p = 0; p < dotsthree.length; p++) {
+			dotsthree[p].className = dotsthree[p].className.replace(" w3-white", "");
+		} 
+		if (slideIndex3 > l.length) {slideIndex3 = 1}
+		l[slideIndex3-1].style.display = "block";
+		dotsthree[slideIndex3-1].className += " w3-white";
+		setTimeout(showDivs3, 4000);
+		slideIndex3++
+	};
 
 $(document).ready(function() {
 

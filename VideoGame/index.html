@@ -12,8 +12,15 @@
         }
     </style>
 </head>
-<audio src="audio/bgm.mp3" autoplay="true" loop="true">
+<audio id="Audiob" src="audio/bgm.mp3" autoplay="true" loop="true">
 </audio>
+<script type="text/javascript">
+    var aud = document.getElementById("Audiob");
+    function halfvolume() {
+    aud.volume = 0.0;       
+    }
+
+</script>
 <body>
     <div id="game"></div>
 </body>

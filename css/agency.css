@@ -766,4 +766,6 @@ body {
 #services h2 {
   color: #ddd;
 }
-#services 
+footer {
+  background-color: #235ebc;
+} 
